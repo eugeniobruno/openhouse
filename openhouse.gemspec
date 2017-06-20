@@ -24,21 +24,13 @@ Gem::Specification.new do |spec|
   spec.require_paths    = ['lib']
   spec.extra_rdoc_files = %w[LICENSE.txt README.md CODE_OF_CONDUCT.md CHANGELOG.md]
 
-  spec.required_ruby_version = '>= 1.9.3'
+  spec.required_ruby_version = '>= 2.0.0'
 
   spec.add_development_dependency 'bundler', '~> 1.15'
   spec.add_development_dependency 'rake', '~> 10.0'
   spec.add_development_dependency 'minitest', '~> 5.0'
-  spec.add_development_dependency 'minitest-bender', '~> 0.0'
+  spec.add_development_dependency 'minitest-bender', '~> 0.0', '>= 0.0.2'
   spec.add_development_dependency 'simplecov', '~> 0.14'
   spec.add_development_dependency 'coveralls', '~> 0.8'
-
-  if RUBY_VERSION < '2'
-    spec.add_development_dependency 'pry-nav', '~> 0.2'
-    spec.add_development_dependency 'term-ansicolor', '~> 1.3.0'
-    spec.add_development_dependency 'tins', '~> 1.6.0'
-    spec.add_development_dependency 'json', '~> 1.8'
-  else
-    spec.add_development_dependency 'pry-byebug', '~> 3.4'
-  end
+  spec.add_development_dependency 'pry-byebug', '~> 3.4'
 end
