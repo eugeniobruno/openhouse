@@ -1,5 +1,11 @@
 # OpenHouse
 
+[![Gem Version](https://badge.fury.io/rb/openhouse.svg)](https://badge.fury.io/rb/openhouse)
+[![Build Status](https://travis-ci.org/eugeniobruno/openhouse.svg?branch=master)](https://travis-ci.org/eugeniobruno/openhouse)
+[![Coverage Status](https://coveralls.io/repos/github/eugeniobruno/openhouse/badge.svg?branch=master)](https://coveralls.io/github/eugeniobruno/openhouse?branch=master)
+[![Code Climate](https://codeclimate.com/github/eugeniobruno/openhouse.svg)](https://codeclimate.com/github/eugeniobruno/openhouse)
+[![Dependency Status](https://gemnasium.com/eugeniobruno/openhouse.svg)](https://gemnasium.com/eugeniobruno/openhouse)
+
 OpenHouse provides a module which simplifies implementing the Visitor design pattern on a type hierarchy.
 
 ## Installation
